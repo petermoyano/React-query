@@ -12,8 +12,8 @@ export default function Home() {
       <div className={styles.container}>
         <div className="App">
           <h1>Infinite SWAPI</h1>
-          <InfinitePeople />
-          {/* <InfiniteSpecies /> */}
+          {/* <InfinitePeople /> */}
+          <InfiniteSpecies />
         </div>
       </div>
       <ReactQueryDevtools />
